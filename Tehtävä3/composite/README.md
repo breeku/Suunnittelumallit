@@ -1,14 +1,23 @@
-## Getting Started
+## Tehtävä 3
+```
+Suunnittele Composite-mallin mukaisesti rajapinnat ja toteutukset systeemille, jolla voit esittää pöytätietokoneen kokoonpanon ja laskea sen hinnan, kun kukin komponentti tietää oman hintansa.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Idea on että tietokoneen kaikki osat ovat vaikkapa Laiteosa-rajapinnan toteuttajia. Laiteosalla on hinta.
 
-## Folder Structure
+Laiteosia on erilaisia, esim:
+- muistipiiri
+- emolevy
+- prosessori
+- verkkokortti
+- näytönohjain
+- kotelo
 
-The workspace contains two folders by default, where:
+Näistä ainakin emolevy ja kotelo ovat koostekomponentteja. Näiden hinta muodostuu komponentin omasta hinnasta sekä mahdollisen sisällön eli liitettyjen komponenttien hinnasta.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Esitä luokkahierarkia ja rakenna pöytätietokonekokoonpano haluamistasi osista ja laske lopuksi kokoonpanon hinta ja tulosta se. Hinnan ilmoittava metodi palauttaa hinnan metodin paluuarvona.
 
-## Dependency Management
+Hyvän mielen bonus:
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+Esitä, kuinka voit luoda kaikki tuoteosat abstraktin tehtaan avulla.
+Esitä myös, kuinka konkreettista tehdasta vaihtamalla saat helposti lasketuksi eri tehtaiden tuottamien samanlaisten kokoonpanojen hintoja.
+```
