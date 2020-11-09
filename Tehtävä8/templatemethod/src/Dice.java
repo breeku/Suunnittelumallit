@@ -14,7 +14,7 @@ public class Dice extends Game {
 
     @Override
     void makePlay(int player) {
-        Integer diceRoll = (int) (Math.random() * 6.0 + 1);
+        Integer diceRoll = (int) (Math.random() * 6 + 1);
         Integer points = playerPoints.get(player) + diceRoll;
         playerPoints.set(player, points);
         if (points >= 100)
