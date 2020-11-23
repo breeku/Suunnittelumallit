@@ -1,0 +1,3 @@
+## Tehtävä 14
+
+Kirjoita ohjelma, jossa rakennat kerroshampurilaisen Builder-mallin mukaisesti. Toteuta vähintään kaksi konkreettista builderia (Hesburger ja McDonalds). Toteuta builderit siten, että kummallakin on eri tietorakenne hampurilaisen koostamiseksi. Toisella esim. List, johon tallennetaan hampurilaisen osat olioina (määrittele osille omat luokat, esim. salaattia voisi edustaa konkreettisen builderin päässä class JäävuoriSalaatti, josta luodaan ilmentymä listaan) ja toisella StringBuilder, jossa osia edustavat merkkijonot. Konkreettisilla Buildereilla on oikeaa tyyppiä palauttavat getBurger()-metodit eli ne palauttavat hampurilaisen sellaisena tietorakenteena, jona se on luotu. 
